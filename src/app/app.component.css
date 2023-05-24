@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+.container {
+  max-width: 300px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.container .inp {
+  display: flex;
+  justify-content: space-between;
+}
+.container .inp input {
+  flex: 1;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #ccc;
+  outline: 0;
+}
+.container .inp button {
+  padding: 10px 10px;
+  background: transparent;
+  background-color: lightseagreen;
+  border-radius: 0 20px 20px 0;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+}
+.container .box {
+  width: 100%;
+  min-height: 500px;
+  border: 8px solid #000;
+  margin-top: 60px;
+  padding: 1px;
+}
+.box ul li:nth-child(even) {
+  border: 2px solid #000;
+  padding: 5px;
+  margin: 5px 5px;
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  background-color: orangered;
+  font-weight: 600;
+}
+.box ul li:nth-child(odd) {
+  border: 2px solid #000;
+  padding: 5px;
+  margin: 5px 5px;
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  background-color: brown;
+  font-weight: 600;
+}
+.box ul li:nth-child(3n + 1) {
+  border: 2px solid #000;
+  padding: 5px;
+  margin: 5px 5px;
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  background-color: yellowgreen;
+  font-weight: 600;
+}
+.box ul li:nth-child(4n + 1) {
+  border: 2px solid #000;
+  padding: 5px;
+  margin: 5px 5px;
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  background-color: yellow;
+  font-weight: 600;
+}
+.box ul li p {
+  padding-right: 8px;
+  width: 100%;
+}
+.box ul li img {
+  width: 20px;
+  padding-left: 3px;
+  cursor: pointer;
+}
